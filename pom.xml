@@ -27,7 +27,7 @@
         <!-- Hibernate Core -->
         <dependency>
             <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
+            <artifactId>hibernate-c3p0</artifactId>
             <version>5.6.15.Final</version>
         </dependency>
 

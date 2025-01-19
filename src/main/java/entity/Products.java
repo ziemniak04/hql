@@ -8,55 +8,55 @@ import javax.persistence.Id;
 @Entity
 public class Products {
     @Basic
-    @Column(name = "Category")
+    @Column(name = "category")
     private String category;
     @Basic
-    @Column(name = "Item")
+    @Column(name = "item")
     private String item;
     @Basic
-    @Column(name = "Serving_size_oz")
+    @Column(name = "serving_size_oz")
     private Double servingSizeOz;
     @Basic
-    @Column(name = "Calories")
+    @Column(name = "calories")
     private Integer calories;
     @Basic
-    @Column(name = "Calories from Fat")
+    @Column(name = "calories_from_fat")
     private Integer caloriesFromFat;
     @Basic
-    @Column(name = "Total Fat")
+    @Column(name = "total_fat")
     private Integer totalFat;
     @Basic
-    @Column(name = "Saturated Fat")
+    @Column(name = "saturated_fat")
     private Integer saturatedFat;
     @Basic
-    @Column(name = "Cholesterol")
+    @Column(name = "cholesterol")
     private Integer cholesterol;
     @Basic
-    @Column(name = "Sodium")
+    @Column(name = "sodium")
     private Integer sodium;
     @Basic
-    @Column(name = "Carbohydrates")
+    @Column(name = "carbohydrates")
     private Integer carbohydrates;
     @Basic
-    @Column(name = "Dietary Fiber")
+    @Column(name = "dietary_fiber")
     private Integer dietaryFiber;
     @Basic
-    @Column(name = "Sugars")
+    @Column(name = "sugars")
     private Integer sugars;
     @Basic
-    @Column(name = "Protein")
+    @Column(name = "protein")
     private Integer protein;
     @Basic
-    @Column(name = "Vitamin A")
+    @Column(name = "vitamin A")
     private Integer vitaminA;
     @Basic
-    @Column(name = "Vitamin C")
+    @Column(name = "vitamin C")
     private Integer vitaminC;
     @Basic
-    @Column(name = "Calcium")
+    @Column(name = "calcium")
     private Integer calcium;
     @Basic
-    @Column(name = "Iron")
+    @Column(name = "iron")
     private Integer iron;
     @Id
     private Long id;
